@@ -113,7 +113,8 @@ def main():
               'An exception just occured, if you found this '
               "exception isn't related with any of your connection problem, "
               'please report this issue to '
-              'https://github.com/bibanon/tubeup/issues')
+              'https://github.com/bibanon/tubeup/issues for uploading issues'
+              'or https://github.com/yt-dlp/yt-dlp/issues for downloading issues')
         traceback.print_exc()
         print('\033[0m')  # End the red color text
         sys.exit(1)
